@@ -277,6 +277,7 @@ Murti, R. K., Joshi, V. V., Wagh, R., Jangale, M. S., Chaudhari, A. C., & Wagh, 
 Stochastic Models for Cyber Attack Detection and Response: A Mathematical Approach to
 Intrusion Detection Systems. Communications on Applied Nonlinear Analysis, 31(3s), 487–502.
 ```
+The full paper is included in [`resources/`](resources/Stochastic_Models_for_Cyber_Attack_Detection_and_Response.pdf).
 
 ## License
 
