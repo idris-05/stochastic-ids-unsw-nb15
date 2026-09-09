@@ -1,0 +1,31 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.Python
+build/
+dist/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Project-specific: dataset & trained artifacts ---
+# Raw UNSW-NB15 CSVs are large and publicly downloadable — see data/README.md
+data/*.csv
+# Trained pipeline artifacts (pickles) and cached numpy matrices — regenerate via src/train.py
+models/*.pkl
+models/*.npy
+!models/.gitkeep
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
